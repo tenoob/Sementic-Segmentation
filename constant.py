@@ -1,0 +1,11 @@
+PATCH_SIZE = 256
+MODEL_LOCATION = 'model/new_model.h5'
+CLASSES = 6
+BUILDING = "#3C1098"
+LAND = "#8429F6"
+ROAD = "#6EC1E4"
+VEGETATION = "#FEDD3A"
+WATER = "#E2A929"
+UNLABLED = "#9B9B9B"
+CATEGORIES = ['Water','Land','Road','Building','Vegetation','Unlabled']
+color_code = ["#3C1098","#8429F6","#6EC1E4","#FEDD3A","#E2A929","#9B9B9B"]
