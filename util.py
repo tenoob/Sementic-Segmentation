@@ -1,7 +1,6 @@
 import numpy as np
 from constant import PATCH_SIZE,MODEL_LOCATION,BUILDING,LAND,ROAD,VEGETATION,WATER,UNLABLED
 import tensorflow as tf
-import cv2
 from patchify import patchify,unpatchify
 from PIL import Image
 from sklearn.preprocessing import MinMaxScaler
